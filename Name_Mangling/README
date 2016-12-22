@@ -1,0 +1,3 @@
+Make a function hi() in name_mangling.cpp , Compile it with a g++ compiler. Now function names have been mangled so if you try
+to link another file and call hi() youll get an undefined symbol error. Now use nm to see the symbol table of the cpp file. You see
+"hi" as "_Z2hiv" or *hi*. Put this in the C file and magically it works !
